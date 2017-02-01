@@ -1,8 +1,10 @@
 
+sudo apt-get install zfs
+
 sudo zpool create -f archive raidz1 \
-/dev/disk/by-id/ata-ST8000NM0055-1RM112_ZA1407ME \
-/dev/disk/by-id/ata-ST8000NM0055-1RM112_ZA1407T7 \
-/dev/disk/by-id/ata-ST8000NM0055-1RM112_ZA1407MJ \
+/dev/disk/by-id/ata-ST8000NM0055-1RM112_ZA129DE5 \
+/dev/disk/by-id/ata-ST8000NM0055-1RM112_ZA1407FV \
+/dev/disk/by-id/ata-ST8000NM0055-1RM112_ZA140837 \
 cache /dev/nvme0n1p1
 
 sudo zfs create archive/01
