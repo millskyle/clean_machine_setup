@@ -12,7 +12,6 @@ sudo zfs set compression=lz4 archive/01
 
 sudo addgroup archive
 sudo chgrp archive /archive/01
-sudo chown archive /archive/01
 sudo chmod 755 /archive/01
 
 sudo adduser kmills archive
