@@ -7,7 +7,7 @@ sudo apt-get -y install htop screen vim
 
 ANACONDA_INSTALLER="https://repo.continuum.io/archive/Anaconda2-4.2.0-Linux-x86_64.sh"
 
-TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow-0.11.0-cp27-none-linux_x86_64.whl
+export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-0.12.1-cp27-none-linux_x86_64.whl
 
 export TF_BINARY_URL=$TF_BINARY_URL
 
