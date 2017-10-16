@@ -11,6 +11,7 @@ cache /dev/nvme0n1p1
 sudo zfs create archive/01
 sudo zfs set compression=lz4 archive/01
 sudo zfs set sharenfs=on archive/01
+sudo zfs share -a
 
 sudo addgroup archive
 sudo chgrp archive /archive/01
