@@ -12,8 +12,8 @@ sudo zfs create archive/01
 sudo zfs set compression=lz4 archive/01
 sudo zfs set sharenfs=on archive/01
 sudo zfs share -a
-echo "ZFS_SHARE=\'yes\'" | sudo tee -a /etc/default/zfs
-echo "ZFS_UNSHARE=\'yes\'" | sudo tee -a /etc/default/zfs
+echo "ZFS_SHARE='yes'" | sudo tee -a /etc/default/zfs
+echo "ZFS_UNSHARE='yes'" | sudo tee -a /etc/default/zfs
 
 
 sudo addgroup archive
