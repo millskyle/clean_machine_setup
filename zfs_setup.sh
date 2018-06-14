@@ -20,3 +20,5 @@ sudo chmod 755 /archive/01
 sudo adduser kmills archive
 sudo adduser itamblyn archive
 
+echo "ZFS_SHARE=\'yes\'" | sudo tee -a /etc/default/zfs
+echo "ZFS_UNSHARE=\'yes\'" | sudo tee -a /etc/default/zfs
